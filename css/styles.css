@@ -97,7 +97,7 @@ body {
   cursor: pointer;
 }
 
-/* преимущества */
+/* чем мы занимаемся */
 
 .benef-title {
   font-weight: 700;
@@ -113,8 +113,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--font-text-color);
 }
-
-/* чем мы занимаемся */
 
 .wwdo-title {
   font-weight: 700;

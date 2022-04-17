@@ -69,6 +69,10 @@ body {
   color: var(--accent-color);
 }
 
+.current {
+  color: #2196f3;
+}
+
 /* эффективные решения */
 
 .hero {
@@ -95,6 +99,11 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
+  background-color: #2196f3;
+}
+
+.hero-btn:hover {
+  background-color: #188ce8;
 }
 
 /* чем мы занимаемся */
@@ -197,15 +206,24 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  background-color: #f5f4fa;
 }
 
-.port-empl-title {
+.port-nav-btn:hover,
+.port-nav-btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.port-exmpl-title {
+  color: var(--font-title-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .port-exmpl-text {
+  color: var(--font-text-color);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
